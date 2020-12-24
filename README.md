@@ -35,7 +35,7 @@ Top 3 'dart-lang' Github Repos:
 [
     {
         name: stagehand,
-        description: Dart project generator - web apps, console apps,
+        description: Dart project generator - web, console apps,
         lang: Dart,
         watchers: 634,
         forks: 121
@@ -57,20 +57,20 @@ Top 3 'dart-lang' Github Repos:
 ]
 
 Top 10 'dart-lang' Github Repos:
-.----------------------------------------------------------------------------------------------------------.
-|          name          |                  description                    |    lang    | watchers | forks |
-|----------------------------------------------------------------------------------------------------------|
-| stagehand              | Dart project generator - web apps, console apps | Dart       |      634 |   121 |
-| dart-vim-plugin        | Syntax highlighting for Dart in Vim             | Vim script |      480 |    42 |
-| dart_style             | An opinionated formatter/linter for Dart code   | Dart       |      473 |    64 |
-| mockito                | Mockito-inspired mock library for Dart          | Dart       |      346 |    72 |
-| protobuf               | Runtime library for Dart protobufs              | Dart       |      281 |   113 |
-| intl                   | Internationalization and localization support   | Dart       |      278 |    93 |
-| dartdoc                | API documentation tool for Dart.                | Dart       |      263 |    68 |
-| markdown               | A Dart markdown library                         | Dart       |      231 |    85 |
-| dart-tutorials-samples | Sample code for "A Game of Darts" tutorial      | Dart       |      181 |   195 |
-| googleapis             | Repository for building the googleapis packages | Dart       |      176 |    55 |
-'----------------------------------------------------------------------------------------------------------'
+.--------------------------------------------------------------------------------------------------------.
+|          name          |                 description                   |    lang    | watchers | forks |
+|--------------------------------------------------------------------------------------------------------|
+| stagehand              | Dart project generator - web, console apps    | Dart       |      634 |   121 |
+| dart-vim-plugin        | Syntax highlighting for Dart in Vim           | Vim script |      480 |    42 |
+| dart_style             | An opinionated formatter/linter for Dart code | Dart       |      473 |    64 |
+| mockito                | Mockito-inspired mock library for Dart        | Dart       |      346 |    72 |
+| protobuf               | Runtime library for Dart protobufs            | Dart       |      281 |   113 |
+| intl                   | Internationalization and localization support | Dart       |      278 |    93 |
+| dartdoc                | API documentation tool for Dart.              | Dart       |      263 |    68 |
+| markdown               | A Dart markdown library                       | Dart       |      231 |    85 |
+| dart-tutorials-samples | Sample code for "A Game of Darts" tutorial    | Dart       |      181 |   195 |
+| googleapis             | Repository for building googleapis packages   | Dart       |      176 |    55 |
+'--------------------------------------------------------------------------------------------------------'
 ```
 
 ## Features and bugs

@@ -77,7 +77,7 @@ Whilst `Inspect.vars()` lets you view variables in [gist.cafe](https://gist.cafe
 
 ![](https://raw.githubusercontent.com/ServiceStack/gist-cafe/main/docs/images/vars-orgRepos-dart-lang.png)
 
-View and execute Dart gists, e.g: [gist.cafe/47e4cce5306ec4bfcc073065cbbbf60c](https://gist.cafe/47e4cce5306ec4bfcc073065cbbbf60c).
+View and execute Dart gists with [gist.cafe](https://gist.cafe), e.g: [gist.cafe/47e4cce5306ec4bfcc073065cbbbf60c](https://gist.cafe/47e4cce5306ec4bfcc073065cbbbf60c).
 
 ### Limitations
 

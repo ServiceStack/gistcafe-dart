@@ -81,7 +81,7 @@ View and execute Dart gists with [gist.cafe](https://gist.cafe), e.g: [gist.cafe
 
 ### Limitations
 
-All objects in `Inspect` APIs need to be [json encodable](https://flutter.dev/docs/development/data-and-backend/json#serializing-json-inside-model-classes).
+All objects used in `Inspect` APIs need to be [json encodable](https://flutter.dev/docs/development/data-and-backend/json#serializing-json-inside-model-classes).
 
 ## Features and bugs
 

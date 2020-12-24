@@ -1,0 +1,7 @@
+publish:
+    update version in pubspec.yaml
+    pub publish
+
+test:
+    pub run test
+

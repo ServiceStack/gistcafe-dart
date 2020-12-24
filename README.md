@@ -73,6 +73,12 @@ Top 10 'dart-lang' Github Repos:
 '--------------------------------------------------------------------------------------------------------'
 ```
 
+Whilst `Inspect.vars()` lets you view variables in [gist.cafe](https://gist.cafe) viewer:
+
+![](https://raw.githubusercontent.com/ServiceStack/gist-cafe/main/docs/images/vars-orgRepos-dart-lang.png)
+
+View and execute Dart gists, e.g: [gist.cafe/47e4cce5306ec4bfcc073065cbbbf60c](https://gist.cafe/47e4cce5306ec4bfcc073065cbbbf60c).
+
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker](https://github.com/ServiceStack/gistcafe-dart/issues).

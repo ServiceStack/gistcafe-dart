@@ -79,6 +79,10 @@ Whilst `Inspect.vars()` lets you view variables in [gist.cafe](https://gist.cafe
 
 View and execute Dart gists, e.g: [gist.cafe/47e4cce5306ec4bfcc073065cbbbf60c](https://gist.cafe/47e4cce5306ec4bfcc073065cbbbf60c).
 
+### Limitations
+
+All objects in `Inspect` APIs need to be [json encodable](https://flutter.dev/docs/development/data-and-backend/json#serializing-json-inside-model-classes).
+
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker](https://github.com/ServiceStack/gistcafe-dart/issues).

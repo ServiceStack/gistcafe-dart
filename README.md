@@ -18,10 +18,10 @@ void main(List<String> arguments) async {
   final orgRepos = json.map((e) => GithubRepo.fromJson(e)).toList();
   orgRepos.sort((a, b) => b.watchers - a.watchers);
 
-  print("Top 3 '${orgName}' Github Repos:");
+  print('Top 3 ${orgName} Github Repos:');
   Inspect.printDump(orgRepos.take(3));
 
-  print("\nTop 10 '${orgName}' Github Repos:");
+  print('\nTop 10 ${orgName} Github Repos:');
   Inspect.printDumpTable(orgRepos.take(10));
 
   Inspect.vars({'orgRepos': orgRepos});
@@ -31,7 +31,7 @@ void main(List<String> arguments) async {
 Which outputs:
 
 ```
-Top 3 'dart-lang' Github Repos:
+Top 3 dart-lang Github Repos:
 [
     {
         name: stagehand,
@@ -56,8 +56,8 @@ Top 3 'dart-lang' Github Repos:
     }
 ]
 
-Top 10 'dart-lang' Github Repos:
-.--------------------------------------------------------------------------------------------------------.
+Top 10 dart-lang Github Repos:
++--------------------------------------------------------------------------------------------------------+
 |          name          |                 description                   |    lang    | watchers | forks |
 |--------------------------------------------------------------------------------------------------------|
 | stagehand              | Dart project generator - web, console apps    | Dart       |      634 |   121 |
@@ -70,7 +70,7 @@ Top 10 'dart-lang' Github Repos:
 | markdown               | A Dart markdown library                       | Dart       |      231 |    85 |
 | dart-tutorials-samples | Sample code for "A Game of Darts" tutorial    | Dart       |      181 |   195 |
 | googleapis             | Repository for building googleapis packages   | Dart       |      176 |    55 |
-'--------------------------------------------------------------------------------------------------------'
++--------------------------------------------------------------------------------------------------------+
 ```
 
 Whilst `Inspect.vars()` lets you view variables in [gist.cafe](https://gist.cafe) viewer:

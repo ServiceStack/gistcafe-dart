@@ -11,10 +11,10 @@ void main(List<String> arguments) async {
   final orgRepos = json.map((e) => GithubRepo.fromJson(e)).toList();
   orgRepos.sort((a, b) => b.watchers - a.watchers);
 
-  print("Top 3 '${orgName}' Github Repos:");
+  print('Top 3 ${orgName} Github Repos:');
   Inspect.printDump(orgRepos.take(3));
 
-  print("\nTop 10 '${orgName}' Github Repos:");
+  print('\nTop 10 ${orgName} Github Repos:');
   Inspect.printDumpTable(orgRepos.take(10));
 
   Inspect.vars({'orgRepos': orgRepos});

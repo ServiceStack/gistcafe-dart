@@ -54,7 +54,7 @@ class Inspect {
         (colSizes.length * 2) +
         (colSizes.length + 1);
     var sb = <String>[];
-    sb.add(".${'-' * (rowWidth - 2)}.");
+    sb.add("+${'-' * (rowWidth - 2)}+");
     var head = '|';
     keys.forEach((k) {
       head += _alignCenter(k, colSizes[k]) + '|';
@@ -70,7 +70,7 @@ class Inspect {
       sb.add(to);
     });
 
-    sb.add("'${'-' * (rowWidth - 2)}'");
+    sb.add("+${'-' * (rowWidth - 2)}+");
 
     return sb.join('\n');
   }

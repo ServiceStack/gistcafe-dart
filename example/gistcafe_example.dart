@@ -5,8 +5,8 @@ import 'package:http/http.dart' as http;
 void main(List<String> arguments) async {
   final orgName = 'dart-lang';
 
-  Iterable json = jsonDecode(
-      (await http.get('https://api.github.com/orgs/${orgName}/repos')).body);
+  var url = Uri.parse('https://api.github.com/orgs/${orgName}/repos');
+  Iterable json = jsonDecode((await http.get(url)).body);
 
   final orgRepos = json.map((e) => GithubRepo.fromJson(e)).toList();
   orgRepos.sort((a, b) => b.watchers - a.watchers);

@@ -20,8 +20,12 @@ class Inspect {
     File(varsPath).writeAsStringSync(json);
   }
 
+  static T cast<T>(x) => x is T ? x : null;
+
   static String dump(dynamic obj) {
-    obj = _asList(obj);
+    if (cast<Iterable>(obj) != null) {
+      obj = _asList(obj);
+    }
     var encoder = JsonEncoder.withIndent('    ');
     var json = encoder.convert(obj);
     return json.replaceAll('"', '');

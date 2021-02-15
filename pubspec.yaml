@@ -1,6 +1,6 @@
 name: gistcafe
 description: gist.cafe utils
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/ServiceStack/gistcafe-dart
 
 environment:
